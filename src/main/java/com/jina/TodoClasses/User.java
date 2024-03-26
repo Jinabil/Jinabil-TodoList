@@ -1,6 +1,6 @@
 package com.jina.TodoClasses;
 
-public class Users {
+public class User {
 	
 		private int id_user;
 	    private String nom;
@@ -8,7 +8,7 @@ public class Users {
 	    private String password;
 	    
 	    // Constructeur
-	    public Users(int id_user, String nom, String email, String password) {
+	    public User(int id_user, String nom, String email, String password) {
 	    	this.id_user = id_user;
 	        this.nom = nom;
 	        this.email = email;
